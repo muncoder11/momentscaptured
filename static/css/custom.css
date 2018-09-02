@@ -1,0 +1,112 @@
+body{
+  background-color: #F2F1EF
+}
+.container{
+     min-height: 500px;
+}
+
+#dummy_logo{
+     display:none;
+}
+
+.navbar-brand{
+     font-weight: 500;
+}
+
+.mar_bottom_2em{
+     margin-bottom: 2em;
+}
+
+.mar_top_4em{
+     margin-top: 4em;
+}
+
+.mar_top_2em{
+     margin-top: 2em;
+}
+
+.card-img-top{
+     border-top-right-radius:0;
+     border-top-left-radius:0;
+}
+
+.category_row_div .col-md-3{
+  margin-bottom: .6em;
+}
+/* category thumbnail styles*/
+.cat-birding{
+     background-image: url('../images/cover/Birds.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-animals{
+     background-image: url('../images/cover/Animals.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-pro_assignment{
+     background-image: url('../images/cover/Professional Assignment.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-travel{
+     background-image: url('../images/cover/Travel.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-street{
+     background-image: url('../images/cover/Street.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-food{
+     background-image: url('../images/cover/Food.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-people{
+     background-image: url('../images/cover/People.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-landscape{
+     background-image: url('../images/cover/Landscape.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat-macro{
+     background-image: url('../images/cover/Macro.jpg');
+     background-size: cover;
+     height:15em;
+}
+
+.cat_thumb_caption {
+      position: absolute;
+      top: 55%;
+      left: 0;
+      width: 100%;
+      color: #fff;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2em;
+      line-height: 1em;
+      font-weight: bolder;
+  }
+/* category thumbnail styles*/
+
+@media (max-width: 992px) {
+     #dummy_logo{
+     display:block;
+     }
+     #main_logo{
+          display: none;
+     }
+}
